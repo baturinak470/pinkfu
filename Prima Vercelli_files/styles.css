@@ -1,0 +1,24 @@
+.qc-cmp-ui-container .qc-cmp-ui {
+  min-height: 250px !important; }
+  .qc-cmp-ui-container .qc-cmp-ui .qc-cmp-publisher-logo {
+    display: none; }
+    @media screen and (max-width: 568px) {
+      .qc-cmp-ui-container .qc-cmp-ui .qc-cmp-publisher-logo {
+        padding-top: 30px;
+        max-height: 150px;
+        max-width: 280px;
+        display: block; } }
+  .qc-cmp-ui-container .qc-cmp-ui .qc-cmp-ui-content {
+    overflow-y: auto;
+    padding: 30px; }
+  .qc-cmp-ui-container .qc-cmp-ui .qc-cmp-qc-link-container {
+    padding: 0 15px 15px 0 !important; }
+
+.qc-cmp-persistent-link {
+  display: none !important; }
+
+body.page-informativa-privacy .qc-cmp-persistent-link,
+body.page-informativa-utilizzo-cookie .qc-cmp-persistent-link {
+  display: block !important; }
+
+/*# sourceMappingURL=styles.css.map */
